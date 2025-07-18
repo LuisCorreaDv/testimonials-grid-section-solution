@@ -133,3 +133,44 @@ body {
   z-index: 2;
 }
 
+@media (max-width: 375px) {
+  body {
+    padding: 3rem 2rem; 
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 2rem;
+  }
+
+  .purple {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .grey {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .white {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .dark {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .white-long {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .quotation-mark {
+    right: 1.5rem;
+  }
+}
+
